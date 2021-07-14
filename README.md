@@ -13,7 +13,7 @@ Both bots comes with option to work with a common currency, which can be enabled
 
 Wanna use your already existing bot? No worries, just move or change the bot path. Read below to get more info.
  
-First time setting it up or getting to know the program? ## KEEP THIS GUIDE IN BACKGROUND!!
+First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACKGROUND!!
 .
 
 .
@@ -29,4 +29,10 @@ First time setting it up or getting to know the program? ## KEEP THIS GUIDE IN B
 5. Easy to new reedemable rewards and commands.
 6. Option to enable crossover currency.
 7. Allow chat to automatically click your keys.
+
+
+
+## ~GUIDE~
+![EXIT button](http://wiad.tk/images/DisTwin/EXIT.png)
+This button is used to clsoe the application/program, when you hit it you will get a question if you wanna disconnect bots. Clicking OK will terminate, disconnect all of the assosciated bots and set it so you gotta connect them again throught the "Account" tab.
  
