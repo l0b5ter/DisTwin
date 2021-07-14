@@ -139,6 +139,10 @@ You see the big black field, well thats the place where you put your fancy code.
 
 To get you started on writing the code, heres a boilerplate which you can use^^ ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/TwitchCommand_Boilerplate")
 
+##### Import
+
+Allows you to import existing command to the bot. Click on the command you wanna import and poof the command is inserted in your bot.
+
 #### Discord
 ![Command SD](http://wiad.tk/images/DisTwin/CommandSD.png)
 
@@ -149,4 +153,13 @@ Boilerplate for Discord is ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/D
 
 The simple section is the same as the Twitch one, the only different is that the Keys field dont work at all here. Becasue the discord bot sud not trigger keys on the streamers side. Would be really awkward and weird.
 
+
+### Reedem Points
+![ReedemP](http://wiad.tk/images/DisTwin/ReedemP.png)
+![Reed](http://wiad.tk/images/DisTwin/Reed.png)
+### Currency
+![Currency](http://wiad.tk/images/DisTwin/Currency.png)
+![Cur](http://wiad.tk/images/DisTwin/Cur.png)
+### Settings
+![Settings](http://wiad.tk/images/DisTwin/Settings.png)
 
