@@ -39,5 +39,6 @@ This button is used to clsoe the application/program, when you hit it you will g
 
 ### Account
 
-![Account tab](http://wiad.tk/images/DisTwin/Account.png)
+![Account tab](http://wiad.tk/images/DisTwin/Account.png){: style="float: left"}
+ewgwgwgewg
  
