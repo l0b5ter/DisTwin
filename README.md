@@ -139,6 +139,10 @@ You see the big black field, well thats the place where you put your fancy code.
 
 To get you started on writing the code, heres a boilerplate which you can use^^ ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/TwitchCommand_Boilerplate")
 
+.
+
+Finished commands can be found here ("https://github.com/l0b5ter/DisTwin/tree/main/Wiki"), jsut hit import :D
+
 ##### Import
 
 Allows you to import existing command to the bot. Click on the command you wanna import and poof the command is inserted in your bot.
@@ -156,10 +160,47 @@ The simple section is the same as the Twitch one, the only different is that the
 
 ### Reedem Points
 ![ReedemP](http://wiad.tk/images/DisTwin/ReedemP.png)
+
+Affiliate? This allows chat to reedem a reward and either press a key or play a audio file.
+
+As with the Command, you will also see how many reedemable the bot act on. 
+
 ![Reed](http://wiad.tk/images/DisTwin/Reed.png)
+
+Custom-reward-ID is the Redeem ID which can be found along with your channel points rewards.
+
 ### Currency
 ![Currency](http://wiad.tk/images/DisTwin/Currency.png)
+
+Finnaly we come to currency, lets first hit the enable button to turn it green.
+Sweet, now the currency is working for both bots. Theres one database which both bots are using, so the currency is always in sync.
+
 ![Cur](http://wiad.tk/images/DisTwin/Cur.png)
+
+"Currency Icon", "Max currency limit" and "Insufficient currency response" are all not working on current version of program. So ignore these 3.
+
+"MoneyTree" this is basicly for the admins of the currency system, if you place a name here they have basicly unlimited currency. This is used when you wanna give away free currency to chat or a person in chat. Holding events or simply a reaction to a discord message would also give those the set currency, however your name gotta be in to be able to use these commands.
+
 ### Settings
 ![Settings](http://wiad.tk/images/DisTwin/Settings.png)
+
+Last but least is the settigns, im not gonna cover this to much. 
+
+You will see status on each bit, if they are connected or not.
+
+Path to the bots, if you used the program to install the bots it sud look somehow like the pic. 
+
+Unchecking "Not show console in new window" will make the program open a console window when you start a bot. Output will be redirected directly to the new window, and no log will be made.
+
+
+
+
+Uhhhhhhhhhhhhhhhh, was that all?
+
+Oki, i think so. If theres anything your wondering about or confused about, dont hesitate to ask me^^
+
+### Regards
+Discord: lobster#5273
+Twitch: loster31345
+
 
