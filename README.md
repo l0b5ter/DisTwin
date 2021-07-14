@@ -110,6 +110,43 @@ Under each bot type theres 3 sections (Simple, advanced and import).
 
 #### Twitch
 When you enter you will first open the twitch command helper
+
+The first you will see is how many commands that was found for the bot, you can hit the open button to see then, remove or edit them. However theres no proper way to edit in the program, only add new ones.
+
+Below you have "Command", the first part is the Prefix which you made earlier in "Account". Your not able to change the Prefix here, it gets loaded from the bot config. The other big text field is where you put the new command name. Like "test".
+
+Before doing anything else, lets look at the different sections.
+
+##### Simple
 ![Command ST](http://wiad.tk/images/DisTwin/CommandST.png)
+
+This is the easiest way to make a new command, however your limited.
+
+"Price" this wont matter unless you enable currency, if currency is disable, will make the bot ignore this. Basicly this is how much the command cost, 0 means free.
+
+"Keys" this wont matter unless you enable currency, would be weird to trigger keys for free right? Basicly allows caht to automatically hit keys on your side. Use SPACE between each key to press they in right order, .:. between each key is used when you wanna trigger both at the same time. Example: "a b" = a b, "a b shift.:.a" = a b A.
+
+"Response" this is what the bot sud respond with when they trigger the command, leaving blank will leave no response.
+
+After filling the desire ones, hit "create" to create and add the new command to the bot.
+
+##### Advance
 ![Command AT](http://wiad.tk/images/DisTwin/CommandAT.png)
+
+This is probably the hardest way, however your have unlimited options!
+
+You see the big black field, well thats the place where you put your fancy code.
+
+To get you started on writing the code, heres a boilerplate which you can use^^ ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/TwitchCommand_Boilerplate")
+
+#### Discord
 ![Command SD](http://wiad.tk/images/DisTwin/CommandSD.png)
+
+Hit discord to see how many commands it finds for your discord bot.
+
+Im not gonna cover this as deep which i did with the Twich part, Import and advanced is nearly the same. You do the same atleast.
+Boilerplate for Discord is ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/DiscordCommand_Boilerplate").
+
+The simple section is the same as the Twitch one, the only different is that the Keys field dont work at all here. Becasue the discord bot sud not trigger keys on the streamers side. Would be really awkward and weird.
+
+
