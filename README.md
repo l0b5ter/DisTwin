@@ -31,8 +31,8 @@ First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACK
 7. Allow chat to automatically click your keys.
 
 ### Regards
-- Discord: lobster#5273
-- Twitch: loster31345
+Discord: lobster#5273
+Twitch: loster31345
 
 
 ## GUIDE
@@ -64,7 +64,9 @@ If your using an existing twitch bot, jump over this section. This setup is aime
 Oki, lets start setting up the twitch bot. To allow the bot into the chat it needs an twitch account to interact with. You can use your own (streamers account) or create one specific for this use, the only important thing to remember is that it needs moderator perm. So another from yours gotta have mod. 
 
 "Bot username" this is simply the account username of which twitch account your using. In my chase this is loster31345.
+
 "Bot authentication" this is alittle more tricky, because its not your password. You must allow scripts to run on the account to get your token. Which is simply done by heading over here ("https://twitchapps.com/tmi/"), click connect and follow the steps. When your done you sud get a nice long token, copy it and paste it into "Bot authentication".
+
 "Twitch channel" this is where the bot sud manage and keep track of chat. Simply put # before the channel name. In my case "#loster31345".
 
 "Prefix" this is used to define if a message is a command or simply a message. Put anything in here and every command gotta start with that prefix. Leaving it blank will let the bot think that every message is a command, but no worries it will work fine, it will only get alittle slow.
@@ -86,3 +88,28 @@ Under the "Bot" tab you gotta create your token, copy it and put it in "Bot Toke
 
 Daym, now we got 2 accounts hooked up. If every field is filled out you can now hit the connect button. When you hit it, the color sud change to green, this means its conencted using what you put in above.
 Your done here!
+
+
+### Console
+
+![Console](http://wiad.tk/images/DisTwin/Console.png)
+
+This is where the magic happens! Where you turn on/off the bots.
+![Console Twitch](http://wiad.tk/images/DisTwin/ConsoleTwi.png)
+![Console Discord](http://wiad.tk/images/DisTwin/ConsoleDis.png)
+
+Simply hit start to start the bot and stop to stop it. Those 2 buttons on the right is change locations and size of the consoles.
+
+### Command
+ENTERING THIS WITHOUT CONNECTING A BOT WOULD GIVE OUT A WARNING, AND IN WORST CASE CRASH THE PROGRAM.
+![Command](http://wiad.tk/images/DisTwin/Command.png)
+
+This is probably the most advanced section, but if you master it, making a command would only take 5sec!
+
+Under each bot type theres 3 sections (Simple, advanced and import).
+
+#### Twitch
+When you enter you will first open the twitch command helper
+![Command ST](http://wiad.tk/images/DisTwin/CommandST.png)
+![Command AT](http://wiad.tk/images/DisTwin/CommandAT.png)
+![Command SD](http://wiad.tk/images/DisTwin/CommandSD.png)
