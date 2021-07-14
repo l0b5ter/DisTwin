@@ -14,3 +14,24 @@ Both bots comes with option to work with a common currency, which can be enabled
 Wanna use your already existing bot? No worries, just move or change the bot path. Read below to get more info.
  
 First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACKGROUND!!
+
+
+
+Features:
+ 
+0. Install, Config and START!
+ 
+1. Easier bot management.
+ 
+2. Option to redirect both output to program and log files.
+ 
+3. Advanced command handling. No more downtime!
+ 
+4. Reedem points handling.
+ 
+5. Easy to new reedemable rewards and commands.
+ 
+6. Option to enable crossover currency.
+ 
+7. Allow chat to automatically click your keys.
+ 
