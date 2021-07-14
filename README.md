@@ -31,8 +31,8 @@ First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACK
 7. Allow chat to automatically click your keys.
 
 ### Regards
-Discord: lobster#5273
-Twitch: loster31345
+- Discord: lobster#5273
+- Twitch: loster31345
 
 
 ## GUIDE
