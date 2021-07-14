@@ -17,21 +17,13 @@ First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACK
 
 
 
-Features:
- 
+###Features:
 0. Install, Config and START!
- 
 1. Easier bot management.
- 
 2. Option to redirect both output to program and log files.
- 
 3. Advanced command handling. No more downtime!
- 
 4. Reedem points handling.
- 
 5. Easy to new reedemable rewards and commands.
- 
 6. Option to enable crossover currency.
- 
 7. Allow chat to automatically click your keys.
  
