@@ -17,7 +17,8 @@ First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACK
 
 
 
-###Features:
+### Features:
+
 0. Install, Config and START!
 1. Easier bot management.
 2. Option to redirect both output to program and log files.
