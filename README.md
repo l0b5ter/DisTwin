@@ -42,8 +42,10 @@ This button is used to clsoe the application/program, when you hit it you will g
 ![Account tab](http://wiad.tk/images/DisTwin/Account.png)
 
 Account tab is where you install each bot and connect them.
+
 First lets hit install to install desired bot, or why not both?
 ![Account install](http://wiad.tk/images/DisTwin/Account1.png)
 
 After successfully installating the button will be disabled and the will show installed.
 
+However if you wanna use a already existing bot, move it to "%appdata%/DisTwin/bots/[BotType]" or locate to the settings file ""%appdata%/DisTwin/Settings.xml" and change the botpath. Remember that the main bot file is named bot.js. Because the program is targeting app.js and config.json!
