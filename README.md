@@ -34,5 +34,6 @@ First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACK
 
 ## GUIDE
 ![EXIT button](http://wiad.tk/images/DisTwin/Exit.png)
+
 This button is used to clsoe the application/program, when you hit it you will get a question if you wanna disconnect bots. Clicking OK will terminate, disconnect all of the assosciated bots and set it so you gotta connect them again throught the "Account" tab.
  
