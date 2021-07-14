@@ -41,6 +41,9 @@ This button is used to clsoe the application/program, when you hit it you will g
 
 ![Account tab](http://wiad.tk/images/DisTwin/Account.png)
 
+Account tab is where you install each bot and connect them.
+First lets hit install to install desired bot, or why not both?
+![Account install](http://wiad.tk/images/DisTwin/Account1.png)
 
-ewgwgwgewg
- 
+After successfully installating the button will be disabled and the will show installed.
+
