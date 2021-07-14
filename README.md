@@ -14,9 +14,11 @@ Both bots comes with option to work with a common currency, which can be enabled
 Wanna use your already existing bot? No worries, just move or change the bot path. Read below to get more info.
  
 First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACKGROUND!!
+.
 
+.
 
-
+.
 ### Features:
 
 0. Install, Config and START!
