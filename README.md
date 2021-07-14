@@ -30,6 +30,9 @@ First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACK
 6. Option to enable crossover currency.
 7. Allow chat to automatically click your keys.
 
+### Regards
+Discord: lobster#5273
+Twitch: loster31345
 
 
 ## GUIDE
@@ -55,8 +58,31 @@ After successfully installating the button will be disabled and the will show in
 However if you wanna use a already existing bot, move it to "%appdata%/DisTwin/bots/[BotType]" or locate to the settings file "%appdata%/DisTwin/Settings.xml" and change the botpath. Remember that the main bot file is named bot.js. Because the program is targeting app.js and config.json!
 
 #### Twitch Account
+If your using an existing twitch bot, jump over this section. This setup is aimed towards tmijs and installed bot.
 ![Account Twitch](http://wiad.tk/images/DisTwin/Account2.png)
+
+Oki, lets start setting up the twitch bot. To allow the bot into the chat it needs an twitch account to interact with. You can use your own (streamers account) or create one specific for this use, the only important thing to remember is that it needs moderator perm. So another from yours gotta have mod. 
+
+"Bot username" this is simply the account username of which twitch account your using. In my chase this is loster31345.
+"Bot authentication" this is alittle more tricky, because its not your password. You must allow scripts to run on the account to get your token. Which is simply done by heading over here ("https://twitchapps.com/tmi/"), click connect and follow the steps. When your done you sud get a nice long token, copy it and paste it into "Bot authentication".
+"Twitch channel" this is where the bot sud manage and keep track of chat. Simply put # before the channel name. In my case "#loster31345".
+
+"Prefix" this is used to define if a message is a command or simply a message. Put anything in here and every command gotta start with that prefix. Leaving it blank will let the bot think that every message is a command, but no worries it will work fine, it will only get alittle slow.
+
+Awesome, if every field is filled out you can now hit the connect button. When you hit it, the color sud change to green, this means its conencted using what you put in above.
+Your done here!
 
 
 #### Discord Account
+If your using an existing discord bot, this will only target the config.json file if yours are using one. Otherwise jump over this.
 ![Account Discord](http://wiad.tk/images/DisTwin/Account3.png)
+
+Oki, lets start setting up the discord bot. First before everything you need a bot account to use, head over to "https://discord.com/developers/applications/" and create an application for the bot. Check every premissions you want on the bot, i would recommend checking everything, this way your not limited when you make new commands. Use the "client_id" on the application and replace the "XXX" in this link ("https://discordapp.com/api/oauth2/authorize?scope=bot&client_id=XXX"), select the server to add it to.
+Theres lots of guides on how to setup a discord bot, so if it was confusing just search it up "How to make a discord bot" or something ;-)
+
+Under the "Bot" tab you gotta create your token, copy it and put it in "Bot Token".
+
+"Prefix" this is the same as the Twitch bot. Is used to define if a message is a command or simply a message. Put anything in here and every command gotta start with that prefix. Leaving it blank will let the bot think that every message is a command, but no worries it will work fine, it will only get alittle slow.
+
+Daym, now we got 2 accounts hooked up. If every field is filled out you can now hit the connect button. When you hit it, the color sud change to green, this means its conencted using what you put in above.
+Your done here!
