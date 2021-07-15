@@ -1,4 +1,4 @@
-Replace `[]` your elements! 
+Replace `[]` with your elements! 
 
 ## Currency basic commands
 |Title|Description|Usage|Bot|
