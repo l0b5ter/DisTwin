@@ -1,12 +1,17 @@
 const Discord = require('discord.js');
 const path = require('path');
 const fs = require('fs');
+const { token, Prefix, ChannelR, RoleHolder } = require('../../config.json');
 //Add more modules or external files
 
 module.exports.run = (client, message, args) => {
+     const appdata = process.env.APPDATA;
  //Put your code in here
-const appdata = process.env.APPDATA;
-message.channel.send(message.author.username);
+ 				if(ChannelR == undefined) {
+					   message.channel.send(message.author.username);
+				 } else {
+					   client.channels.find(channel => channel.name === ChannelR).send(message.author.username);
+				 }	
 };
 
 module.exports.help = {
