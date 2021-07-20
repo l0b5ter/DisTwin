@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const { token, Prefix, ChannelR, RoleHolder } = require('../../config.json');
 
 module.exports.run = (client, message, args) => {
 	let embed = new Discord.RichEmbed()
@@ -8,7 +9,11 @@ module.exports.run = (client, message, args) => {
 		.addField('Full username', message.author.tag)
 		.addField('ID', message.author.id)
 		.addField('Created at', message.author.createdAt);
-	message.channel.send({embed: embed});
+		if(ChannelR == undefined) {
+			message.channel.send({embed: embed});
+     		} else {
+			client.channels.find(channel => channel.name === ChannelR).send({embed: embed});
+     		}	
 };
 
 module.exports.help = {
