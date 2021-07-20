@@ -1,46 +1,36 @@
-const Discord = require('discord.js');
+const tmi = require('tmi.js');
+const robot = require('robotjs');
+var player = require('play-sound')(opts = {});
 const path = require('path');
 const fs = require('fs');
-const { token, Prefix, ChannelR, RoleHolder } = require('../../config.json');
 
 
 
-module.exports.run = (client, message, args) => {
+module.exports.run = (client, args, channel, user, message, self) => {
 const appdata = process.env.APPDATA;
 	if (fs.existsSync(appdata + "/DisTwin/Currency/BankAccount.json")){
 		if(!args[0] == ""){
-			var user = message.mentions.users.first().username;
+			var user = args[0].replace("@", "");
 		} else {
-			var user = message.author.username;
+			var user = user['display-name'];
 		}
 	        fs.readFile(appdata + "/DisTwin/Currency/BankAccount.json", 'utf8', (err, jsonString) => {
+			console.log(user['display-name']);
 			try {
 				const jsonObj = JSON.parse(jsonString);
 				jsonObj["Accounts"].forEach(item =>
 				{
-					if(item.Discord == user)
+					if(item.Name == user)
 					{
-						if(ChannelR == undefined) {
-							message.channel.send(item.Name + ': ' + item.price);
-						} else {
-							client.channels.find(channel => channel.name === ChannelR).send(item.Name + ': ' + item.price);
-						}
+						client.say(channel, item.Name + ': ' + item.price);
 					}
 				});
 			} catch(err) {
-				if(ChannelR == undefined) {
-					message.channel.send('Couldnt grab currency for user');
-				} else {
-					client.channels.find(channel => channel.name === ChannelR).send('Couldnt grab currency for user');
-				}
+				client.say(channel, 'Couldnt grab currency for user');
 			}
 		});
 	} else {
-		if(ChannelR == undefined) {
-			message.channel.send('Couldnt grab currency for user');
-		} else {
-			client.channels.find(channel => channel.name === ChannelR).send('Couldnt grab currency for user');
-		}
+		client.say(channel, 'Couldnt grab current currency for user');
 	}
 };
 
