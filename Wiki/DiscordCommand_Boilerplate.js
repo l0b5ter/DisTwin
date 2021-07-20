@@ -7,11 +7,11 @@ const { token, Prefix, ChannelR, RoleHolder } = require('../../config.json');
 module.exports.run = (client, message, args) => {
      const appdata = process.env.APPDATA;
  //Put your code in here
- 				if(ChannelR == undefined) {
-					   message.channel.send(message.author.username);
-				 } else {
-					   client.channels.find(channel => channel.name === ChannelR).send(message.author.username);
-				 }	
+     if(ChannelR == undefined) {
+	message.channel.send(message.author.username);
+     } else {
+	client.channels.find(channel => channel.name === ChannelR).send(message.author.username);
+     }	
 };
 
 module.exports.help = {
