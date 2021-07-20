@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const fetch = require('node-fetch');
 const fs = require("fs");
 const client = new Discord.Client();
-const { token, Prefix, QuestionInt, QuestionLink, ChannelQuestion, QuestionTitle } = require('../../config.json');
+const { token, Prefix, ChannelR, RoleHolder } = require('../../config.json');
 
 module.exports.run = (client, message, args) => {
 	try {
@@ -30,7 +30,11 @@ const QuestionDay = (message, client) => {
 				let embed = new Discord.RichEmbed()
 					.addField("Question of the day", item.question)
 					.setTimestamp()
-				client.channels.find(channel => channel.name === ChannelQuestion).send({embed: embed});
+				     if(ChannelR == undefined) {
+					message.channel.send({embed: embed});
+     				     } else {
+					client.channels.find(channel => channel.name === ChannelR).send({embed: embed});
+     				     }	
 				//console.log(item.question);
 			});			
 		});
@@ -47,5 +51,9 @@ const NoQuestion = (message, client) => {
 			.setColor(0xfef08d)
 			.setTitle("Couldnt grab question!")
 			.addField("+--------------------------------------------------+", "Make sure the link is set right.")
-		client.channels.find(channel => channel.name === ChannelQuestion).send({embed: embed});
+			if(ChannelR == undefined) {
+				message.channel.send({embed: embed});
+     			} else {
+				client.channels.find(channel => channel.name === ChannelR).send({embed: embed});
+     			}	
 };
