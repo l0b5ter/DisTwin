@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const path = require('path');
 const fs = require('fs');
+const { token, Prefix, ChannelR, RoleHolder } = require('../../config.json');
 
 
 
