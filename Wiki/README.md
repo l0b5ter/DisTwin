@@ -2,7 +2,7 @@
 
 # Discord
 ## Commands
-|Title|Description|Usage|Require currency|Bot|
+|Title|Description|Usage|Require Currency|Bot|
 |:-|:-|:-|:-|:-|
 |DiscordCommand_Boilerplate.js|A plate to cook commands on|Boilerplate|false|Discord|
 |ping.js |Show server latency and bot latency^^ |`[Prefix]`ping |false|Discord|
@@ -12,7 +12,7 @@
 |curtop.js |Display top 10 richest people. |`[Prefix]`curtop |true|Discord|
 |test12.js |Message author name. |`[Prefix]`test12 |true|Discord|
 |test23.js |Pay currency to show message. |`[Prefix]`test23 |true|Discord|
-
+### Remember name gotta match with filename!
 
 # Twitch
 ## Commands
