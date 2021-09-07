@@ -18,9 +18,11 @@
 ## Commands
 |Title|Description|Usage|Require currency|Bot|
 |:-|:-|:-|:-|:-|
-|earn.js |Felt someone in chat needed some bot currency? Every name in MoneyTree property inside BankAccounts.json can give free currency to people in chat^^ |`[Prefix]`earn @`[name]` value |Twitch|
-|gift.js |Gift some of your currency to someone else. |`[Prefix]`gift @`[name]` value |Twitch|
-|cur.js |Display currency for user/-s. Remove T from curT.js after download!!!!!|`[Prefix]`cur or `[Prefix]`cur @`[Username]`|Twitch|
+|question.js |Show a random question^^ |`[Prefix]`question |false|Twitch|
+|earn.js |Felt someone in chat needed some bot currency? Every name in MoneyTree property inside BankAccounts.json can give free currency to people in chat^^ |`[Prefix]`earn @`[name]` value |true|Twitch|
+|gift.js |Gift some of your currency to someone else. |`[Prefix]`gift @`[name]` value |true|Twitch|
+|cur.js |Display currency for user/-s|`[Prefix]`cur or `[Prefix]`cur @`[Username]`|true|Twitch|
+|test.js, h.js, s.js|Example commands for bot|Depends on command|true|Twitch|
 
 
 
