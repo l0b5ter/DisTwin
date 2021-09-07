@@ -1,6 +1,5 @@
 const tmi = require('tmi.js');
 const robot = require('robotjs');
-var player = require('play-sound')(opts = {});
 const path = require('path');
 const fs = require('fs');
 
