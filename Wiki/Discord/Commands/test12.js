@@ -9,5 +9,5 @@ message.channel.send(message.author.username);
 
 module.exports.help = {
 name: 'test12',
-desc: 'Pay 0 to display Heeeeeei'
+desc: 'Show message username'
 };
