@@ -2,7 +2,7 @@
 
 # Discord
 ## Commands
-|**Title|Description|Usage|Require Currency|Bot**|
+|**Title**|**Description**|**Usage**|**Require Currency**|**Bot**|
 |:-|:-|:-|:-|:-|
 |DiscordCommand_Boilerplate.js|A plate to cook commands on|Boilerplate|false|Discord|
 |ping.js |Show server latency and bot latency^^ |`[Prefix]`ping |false|Discord|
@@ -16,7 +16,7 @@
 
 # Twitch
 ## Commands
-|Title|Description|Usage|Require currency|Bot|
+|**Title**|**Description**|**Usage**|**Require Currency**|**Bot**|
 |:-|:-|:-|:-|:-|
 |TwitchCommand_Boilerplate.js|A plate to cook commands on|Boilerplate|false|Twitch|
 |question.js |Show a random question^^ |`[Prefix]`question |false|Twitch|
@@ -24,7 +24,7 @@
 |gift.js |Gift some of your currency to someone else. |`[Prefix]`gift @`[name]` value |true|Twitch|
 |cur.js |Display currency for user/-s|`[Prefix]`cur or `[Prefix]`cur @`[Username]`|true|Twitch|
 |test.js, h.js, s.js|Example commands for bot|Depends on command|true|Twitch|
-
+### Remember name gotta match with filename!
 
 
 
