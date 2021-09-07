@@ -3,7 +3,7 @@ const robot = require('robotjs');
 const path = require("path");
 
 const muteTimer = 60; //in seconds
-commandName = "timeout";
+commandName = "timeout2";
 
 module.exports.run = (client, channel, user, message, self) => {
 	try{
