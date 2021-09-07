@@ -26,6 +26,16 @@
 |test.js, h.js, s.js|Example commands for bot|Depends on command|true|Twitch|
 ### Remember name gotta match with filename!
 
+## Reedem points
+|**Title**|**Description**|**Bot**|
+|:-|:-|:-|
+|TwitchReedemable_Boilerplate.js|A plate to cook reedemables on|Boilerplate|false|Twitch|
+|question.js |Show a random question^^ |Twitch|
+|presser.js |Example for activation of keystrokes on streamers keyboard Twitch|
+|test.js |One way to play sounds|Twitch|
+|timeout.js |Timeout yourself!|Twitch|
+|timeout2.js|50% chance to timeout mention name, 50% for yourself|Twitch|
+### Note: When you past raw code in remember to write correct custom-reward-id/msg-id in name. Same with when you import you gotta change the name: property inside to your custom-reward-id/msg-id!!!!! Otherwise it wont work!
 
 
 
