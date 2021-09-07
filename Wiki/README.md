@@ -2,7 +2,7 @@
 
 # Discord
 ## Commands
-|#### Title|Description|Usage|Require Currency|Bot|
+|**Title|Description|Usage|Require Currency|Bot**|
 |:-|:-|:-|:-|:-|
 |DiscordCommand_Boilerplate.js|A plate to cook commands on|Boilerplate|false|Discord|
 |ping.js |Show server latency and bot latency^^ |`[Prefix]`ping |false|Discord|
