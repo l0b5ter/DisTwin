@@ -233,6 +233,6 @@ module.exports.run = (client, message, args) => {
 };
 
 module.exports.help = {
-	name: "covid",
+	name: "covid19",
 	desc: "Keep track of Corona Virus(COVID-19) cases via rapidapi API. 21 pages totally!"
 };
