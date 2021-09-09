@@ -7,7 +7,9 @@
 |DiscordCommand_Boilerplate.js|A plate to cook commands on|Boilerplate|false|Discord|
 |ping.js |Show server latency and bot latency^^ |`[Prefix]`ping |false|Discord|
 |userinfo.js |Show your discord userinfo^^ |`[Prefix]`userinfo |false|Discord|
-|ps2stats.js |Show planetside2 players info! This works with every pc server including ps4 servers. |`[Prefix]`ps2stats playername OR `[Prefix]`ps2stats ps2server playername |false|Discord|
+|ps2stats.js |Show planetside2 players info! This works with every pc server including ps4 servers. |`[Prefix]`ps2stats `[playername]` OR `[Prefix]`ps2stats `[ps2server]` `[playername]` |false|Discord|
+|corona.js |Keep track of Corona Virus(COVID-19) cases via rapidapi API. 21 pages totally! |`[Prefix]`corona `[pagenr]` |false|Discord|
+|covid19.js |Keep track of Corona Virus(COVID-19) cases via rapidapi API. 21 pages totally! |`[Prefix]`covid19 `[pagenr]`|false|Discord|
 |link.js |Link a discord account to existing twitch account (requires MoneyTree perm). |`[Prefix]`link `[TwitchUsername]` @`[DiscordName]` |false|Discord|
 |cur.js |Display currency for user/-s. |`[Prefix]`cur OR `[Prefix]`cur @`[Username]`|true|Discord|
 |curtop.js |Display top 10 richest people. |`[Prefix]`curtop |true|Discord|
