@@ -38,6 +38,7 @@
 |test.js |One way to play sounds|Twitch|
 |timeout.js |Timeout yourself!|Twitch|
 |timeout2.js|50% chance to timeout mention name, 50% for yourself|Twitch|
+|update.js|Update a CustomReward with its custom-reward-id|Twitch|
 ### Note: When you past raw code remember to write correct custom-reward-id/msg-id in name. Same with when you import you gotta change the "name:" property inside to your custom-reward-id/msg-id!!!!! Otherwise it wont work!
 
 
