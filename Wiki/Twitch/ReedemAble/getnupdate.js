@@ -7,12 +7,12 @@ var request = require('request');
 var CustomRewardBody;
 const PointsToUpdateEachTime = 10;
 
-const CustomeRewardID = 'c9d385dc-a26b-46aa-bbfc-5ba6bd91f2a2';
-const BroadCasterID = '46972832';
+const CustomeRewardID = '';
+const BroadCasterID = '';
 
 const headers = {
-	'client-id': 'gp762nuuoqcoxypju8c569th9wz7q5',
-	'Authorization': 'Bearer ldt9ujm7pfgn8jyoxxo0b7avyxwbm2',
+	'client-id': '',
+	'Authorization': 'Bearer ',
 	'Content-Type': 'application/json' 
 };
 
