@@ -23,13 +23,13 @@
 |:-|:-|:-|:-|:-|
 |TwitchCommand_Boilerplate.js|A plate to cook commands on|Boilerplate|false|Twitch|
 |question.js |Show a random question^^ |`[Prefix]`question |false|Twitch|
+|get.js|Get data on a CustomReward with its custom-reward-id|`[Prefix]`get |false|Twitch|
+|update.js|Update a CustomReward with its custom-reward-id|`[Prefix]`update |false|Twitch|
+|getnupdate.js|Get data on a CustomReward and update using old values|`[Prefix]`getnupdate |false|Twitch|
 |earn.js |Felt someone in chat needed some bot currency? Every name in MoneyTree property inside BankAccounts.json can give free currency to people in chat^^ |`[Prefix]`earn @`[name]` value |true|Twitch|
 |gift.js |Gift some of your currency to someone else. |`[Prefix]`gift @`[name]` value |true|Twitch|
 |cur.js |Display currency for user/-s|`[Prefix]`cur or `[Prefix]`cur @`[Username]`|true|Twitch|
 |test.js, h.js, s.js|Example commands for bot|Depends on command|true|Twitch|
-|get.js|Get data on a CustomReward with its custom-reward-id|Twitch|
-|update.js|Update a CustomReward with its custom-reward-id|Twitch|
-|getnupdate.js|Get data on a CustomReward and update using old values|Twitch|
 ### Remember name gotta match with filename!
 
 ## Reedem points
