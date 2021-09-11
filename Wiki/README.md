@@ -27,6 +27,9 @@
 |gift.js |Gift some of your currency to someone else. |`[Prefix]`gift @`[name]` value |true|Twitch|
 |cur.js |Display currency for user/-s|`[Prefix]`cur or `[Prefix]`cur @`[Username]`|true|Twitch|
 |test.js, h.js, s.js|Example commands for bot|Depends on command|true|Twitch|
+|get.js|Get data on a CustomReward with its custom-reward-id|Twitch|
+|update.js|Update a CustomReward with its custom-reward-id|Twitch|
+|getnupdate.js|Get data on a CustomReward and update using old values|Twitch|
 ### Remember name gotta match with filename!
 
 ## Reedem points
