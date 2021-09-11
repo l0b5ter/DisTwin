@@ -11,6 +11,7 @@
 |corona.js |Keep track of Corona Virus(COVID-19) cases via rapidapi API. 21 pages totally! |`[Prefix]`corona `[pagenr]` |false|Discord|
 |covid19.js |Keep track of Corona Virus(COVID-19) cases via rapidapi API. 21 pages totally! |`[Prefix]`covid19 `[pagenr]`|false|Discord|
 |link.js |Link a discord account to existing twitch account (requires MoneyTree perm). |`[Prefix]`link `[TwitchUsername]` @`[DiscordName]` |false|Discord|
+|question.js |Show a random question^^ |`[Prefix]`question |false|Discord|
 |cur.js |Display currency for user/-s. |`[Prefix]`cur OR `[Prefix]`cur @`[Username]`|true|Discord|
 |curtop.js |Display top 10 richest people. |`[Prefix]`curtop |true|Discord|
 |test12.js |Message author name. |`[Prefix]`test12 |true|Discord|
