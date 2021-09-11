@@ -4,6 +4,8 @@ const fetch = require('node-fetch');
 const path = require("path");
 var request = require('request');
 
+const PointsToUpdateEachTime = 10;
+
 const CustomeRewardID = '';
 const BroadCasterID = '';
 
@@ -15,7 +17,7 @@ const headers = {
 
 module.exports.run = (client, channel, user, message, self) => {
 	var bodyS = {
-		"cost": 60,
+		"cost": PointsToUpdateEachTime,
 		"prompt": "Owned by: "+ user
 	};
 	var options = {
