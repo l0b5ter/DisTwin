@@ -63,7 +63,7 @@ However if you wanna use a already existing bot, move it to "%appdata%/DisTwin/b
 If your using an existing twitch bot, jump over this section. This setup is aimed towards tmijs and recently installed bot.
 ![Account Twitch](http://wiad.tk/images/DisTwin/Account2.png)
 
-Oki, lets start setting up the twitch bot. To allow the bot into the chat it needs an twitch account to interact with. You can use your own (streamers account) or create one specific for this use, the only important thing to remember is that it needs moderator perm. So another from yours gotta have mod. 
+Oki, lets start setting up the twitch bot. To allow the bot into the chat it needs an twitch account to interact with. You can use your own (streamers account) or create one specific for this use, the only important thing to remember is that it needs moderator perm. So in another word it needs mod perms, these perms are called **scopes**.
 
 "Bot username" this is simply the account username of which twitch account your using. In my chase this is loster31345.
 
