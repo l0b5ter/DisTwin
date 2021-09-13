@@ -44,7 +44,7 @@ Before we jump into it, when theres [something] replace the whole [something] wi
 
 ![EXIT button](http://wiad.tk/images/DisTwin/Exit.png)
 
-This button is used to clsoe the application/program, when you hit it you will get a question if you wanna disconnect bots. Clicking OK will terminate, disconnect all of the assosciated bots and set it so you gotta connect them again throught the "Account" tab.
+This button is used to close the application/program, when you hit it you will get a question if you wanna disconnect the bots. Clicking OK will terminate, disconnect all of the assosciated bots and make it so you gotta connect the bots again throught the "Account" tab. This feature is added to keep credentials safe.
 
 ### Account
 
