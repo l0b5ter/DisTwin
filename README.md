@@ -144,11 +144,11 @@ This is probably the hardest way, however your have unlimited options!
 
 You see the big black field, well thats the place where you put your fancy code.
 
-To get you started on writing the code, heres a boilerplate which you can use^^ ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/TwitchCommand_Boilerplate")
+To get you started on writing the code, heres a boilerplate which you can use^^ ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/Twitch/Commands/TwitchCommand_Boilerplate")
 
 .
 
-Finished commands can be found here ("https://github.com/l0b5ter/DisTwin/tree/main/Wiki"), jsut hit import :D
+Finished commands can be found here ("https://github.com/l0b5ter/DisTwin/tree/main/Wiki"), just hit import :D
 
 ##### Import
 
@@ -160,7 +160,7 @@ Allows you to import existing command to the bot. Click on the command you wanna
 Hit discord to see how many commands it finds for your discord bot.
 
 Im not gonna cover this as deep which i did with the Twich part, Import and advanced is nearly the same. You do the same atleast.
-Boilerplate for Discord is ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/DiscordCommand_Boilerplate").
+Boilerplate for Discord is ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/Discord/Commands/DiscordCommand_Boilerplate").
 
 The simple section is the same as the Twitch one, the only different is that the Keys field dont work at all here. Becasue the discord bot sud not trigger keys on the streamers side. Would be really awkward and weird.
 
