@@ -167,9 +167,12 @@ The simple section is the same as the Twitch one, the only different is that the
 Finished commands can be found here ("https://github.com/l0b5ter/DisTwin/tree/main/Wiki"), just hit import :D
 
 ### Reedem Points
+ENTERING THIS WITHOUT CONNECTING A BOT WOULD GIVE OUT A WARNING, AND IN WORST CASE CRASH THE PROGRAM.
 ![ReedemP](http://wiad.tk/images/DisTwin/ReedemP.png)
 
-Affiliate? This allows chat to reedem a reward and either press a key or play a audio file.
+``Require scopes ["channel:read:redemptions", "opendid", "viewing_activity_read", "channel:manage:redemptions", "channel:moderate", "channel_editor"]``
+Missing a scope will display a error and no reedemables will appear!
+Affiliate? This allows chat to reedem a reward and either press a key, play a audio file, perform api call etc.
 
 As with the Command, you will also see how many reedemable the bot act on. 
 
