@@ -220,7 +220,8 @@ I think that covers the most important ones. All of these scopes are tested with
 > Uhhhhhhhhhhhhhhhh, was that all?
 > 
 > Oki, i think so. If theres anything your wondering about or confused about, dont hesitate to ask me^^
-
+>
+>
 > #### Regards
 > 
 > Discord: lobster#5273
