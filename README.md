@@ -70,6 +70,7 @@ Oki, lets start setting up the twitch bot. To allow the bot into the chat it nee
 "Bot authentication" this is alittle more tricky, because its not your password. You must allow scripts to run on the account to get your token. There are severals ways to obtain this token, but below are a some suggested ones and what **scopes** you will get.
 - ("https://twitchapps.com/tmi/") : Will give the most basic **scopes**, which is ["chat:edit", "chat:read", "openid", "viewing_activity_read", "whispers:edit", "whispers:read"]. You cant manage reedemables, ads, subs etc. with this one! 
 - ("https://twitchtokengenerator.com/") : Lets you decide what **scopes** you wanna use! Under each section im gonna mention which **scopes** that are required.
+
 After heading to either one of the links above, click connect or generate and follow the steps. When your done you sud get a nice long token, copy it and paste it into "Bot authentication".
 
 "Twitch channel" this is where the bot sud manage and keep track of chat. Simply put # before the channel name. In my case "#loster31345".
