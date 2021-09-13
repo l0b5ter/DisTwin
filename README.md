@@ -65,17 +65,17 @@ If your using an existing twitch bot, jump over this section. This setup is aime
 
 Oki, lets start setting up the twitch bot. To allow the bot into the chat it needs an twitch account to interact with. You can use your own (streamers account) or create one specific for this use, the only important thing to remember is that it needs moderator perm. So in another word it needs mod perms, these perms are called **scopes**.
 
-"Bot username" this is simply the account username of which twitch account your using. In my chase this is loster31345.
+1. "Bot username" this is simply the account username of which twitch account your using. In my chase this is loster31345.
 
-"Bot authentication" this is alittle more tricky, because its not your password. You must allow scripts to run on the account to get your token. There are severals ways to obtain this token, but below are a some suggested ones and what **scopes** you will get.
+2. "Bot authentication" this is alittle more tricky, because its not your password. You must allow scripts to run on the account to get your token. There are severals ways to obtain this token, but below are a some suggested ones and what **scopes** you will get.
   - ("https://twitchapps.com/tmi/") : Will give the most basic **scopes**, which is ["chat:edit", "chat:read", "openid", "viewing_activity_read", "whispers:edit", "whispers:read"]. You cant manage reedemables, ads, subs etc. with this one! 
   - ("https://twitchtokengenerator.com/") : Lets you decide what **scopes** you wanna use! Under each section im gonna mention which **scopes** that are required.
 
   After heading to either one of the links above, click connect or generate and follow the steps. When your done you sud get a nice long token, copy it and paste it into "Bot authentication".
 
-"Twitch channel" this is where the bot sud manage and keep track of chat. Simply put # before the channel name. In my case "#loster31345".
+3. "Twitch channel" this is where the bot sud manage and keep track of chat. Simply put # before the channel name. In my case "#loster31345".
 
-"Prefix" this is used to define if a message is a command or simply a message. Put anything in here and every command gotta start with that prefix. Leaving it blank will let the bot think that every message is a command, but no worries it will work fine, it will only get alittle slow.
+4. "Prefix" this is used to define if a message is a command or simply a message. Put anything in here and every command gotta start with that prefix. Leaving it blank will let the bot think that every message is a command, but no worries it will work fine, it will only get alittle slow.
 
 Awesome, if every field is filled out you can now hit the connect button. When you hit it, the color sud change to green, this means its conencted using what you put in above.
 Your done here!
