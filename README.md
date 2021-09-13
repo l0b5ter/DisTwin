@@ -38,7 +38,7 @@ First time setting it up or getting to know the program? KEEP THIS GUIDE IN BACK
 
 
 ## GUIDE
-Before we jumo into it when theres [something], replace the whole [something] with your correct value.
+Before we jump into it, when theres [something] replace the whole [something] with your correct value.
 
 .
 
