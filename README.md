@@ -60,7 +60,7 @@ After successfully installating, the button will be disabled and button text wil
 However if you wanna use a already existing bot, move it to "%appdata%/DisTwin/bots/[BotType]", go to settings tab and update the bot path, or locate the settings file "%appdata%/DisTwin/Settings.xml" and change the botpath. Remember that the main bot file is named bot.js. Because the program is targeting bot.js and config.json!
 
 #### Twitch Account
-If your using an existing twitch bot, jump over this section. This setup is aimed towards tmijs and installed bot.
+If your using an existing twitch bot, jump over this section. This setup is aimed towards tmijs and recently installed bot.
 ![Account Twitch](http://wiad.tk/images/DisTwin/Account2.png)
 
 Oki, lets start setting up the twitch bot. To allow the bot into the chat it needs an twitch account to interact with. You can use your own (streamers account) or create one specific for this use, the only important thing to remember is that it needs moderator perm. So another from yours gotta have mod. 
