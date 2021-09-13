@@ -164,6 +164,7 @@ Boilerplate for Discord is ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/D
 
 The simple section is the same as the Twitch one, the only different is that the Keys field dont work at all here. Becasue the discord bot sud not trigger keys on the streamers side. Would be really awkward and weird.
 
+Finished commands can be found here ("https://github.com/l0b5ter/DisTwin/tree/main/Wiki"), just hit import :D
 
 ### Reedem Points
 ![ReedemP](http://wiad.tk/images/DisTwin/ReedemP.png)
