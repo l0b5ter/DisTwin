@@ -172,6 +172,7 @@ ENTERING THIS WITHOUT CONNECTING A BOT WOULD GIVE OUT A WARNING, AND IN WORST CA
 
 ``Require scopes ["channel:read:redemptions", "opendid", "viewing_activity_read", "channel:manage:redemptions", "channel:moderate", "channel_editor"]``
 Missing a scope will display a error and no reedemables will appear!
+
 Affiliate? This allows chat to reedem a reward and either press a key, play a audio file, perform api call etc.
 
 As with the Command, you will also see how many reedemable the bot act on. 
