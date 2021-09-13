@@ -102,7 +102,6 @@ Your done here!
 
 This is where the magic happens! Where you turn on/off the bots.
 ![Console Twitch](http://wiad.tk/images/DisTwin/ConsoleTwi.png)
-![Console Discord](http://wiad.tk/images/DisTwin/ConsoleDis.png)
 
 Simply hit start to start the bot and stop to stop it. Those 2 buttons on the right is change locations and size of the consoles.
 
