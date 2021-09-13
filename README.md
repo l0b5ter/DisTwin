@@ -108,9 +108,10 @@ Simply hit start to start the bot and stop to stop it. Those 2 buttons on the ri
 ### Command
 ENTERING THIS WITHOUT CONNECTING A BOT WOULD GIVE OUT A WARNING, AND IN WORST CASE CRASH THE PROGRAM.
 ![Command](http://wiad.tk/images/DisTwin/Command.png)
+
 Require **scopes** ["chat:edit", "chat:read", "openid", "viewing_activity_read"]
 
-This is probably the most advanced section, but if you master it, making a command would only take 5sec!
+This is probably one of the most advanced section, but if you master it, making a command would only take 5sec!
 
 Under each bot type theres 3 sections (Simple, advanced and import).
 
