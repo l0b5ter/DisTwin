@@ -208,7 +208,7 @@ Unchecking "Not show console in new window" will make the program open a console
 Lastly i wanna cover scopes alittle deeper for the twitch perms.
 - Basic scopes ``["opendid", "viewing_activity_read", "channel:moderate", "channel_editor"]``
 - Read and manage whispers ``["whispers:edit", "whispers:read"]``
-- Read chat and manage commands ``[`"chat:edit", "chat:read"]``
+- Read chat and manage commands ``["chat:edit", "chat:read"]``
 - Read reedemables and manage them ``["channel:read:redemptions", "channel:manage:redemptions"]``
 - Start ad/commerical ``["channel:edit:commercial", "channel_commercial"]``
 - Get subscribers ``["channel:read:subscriptions", "channel:manage:subscriptions"]``
@@ -217,11 +217,10 @@ I think that covers the most important ones. All of these scopes are tested with
 
 
 
-Uhhhhhhhhhhhhhhhh, was that all?
+> Uhhhhhhhhhhhhhhhh, was that all?
+> Oki, i think so. If theres anything your wondering about or confused about, dont hesitate to ask me^^
 
-Oki, i think so. If theres anything your wondering about or confused about, dont hesitate to ask me^^
-
-### Regards
+> ### Regards
 Discord: lobster#5273
 Twitch: loster31345
 
