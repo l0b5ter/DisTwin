@@ -159,7 +159,7 @@ Allows you to import existing command to the bot. Click on the command you wanna
 
 Hit discord to see how many commands it finds for your discord bot.
 
-Im not gonna cover this as deep which i did with the Twich part, Import and advanced is nearly the same. You do the same atleast.
+Im not gonna cover this as deep as i did with the Twich part, Import and advanced is nearly the same. You do the same atleast.
 Boilerplate for Discord is ("https://github.com/l0b5ter/DisTwin/blob/main/Wiki/Discord/Commands/DiscordCommand_Boilerplate").
 
 The simple section is the same as the Twitch one, the only different is that the Keys field dont work at all here. Becasue the discord bot sud not trigger keys on the streamers side. Would be really awkward and weird.
