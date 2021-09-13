@@ -120,7 +120,7 @@ When you enter you will first open the twitch command helper
 
 The first you will see is how many commands that was found for the bot, you can hit the open button to see then, remove or edit them. However theres no proper way to edit in the program, only add new ones.
 
-Below you have "Command", the first part is the Prefix which you made earlier in "Account". Your not able to change the Prefix here, it gets loaded from the bot config. The other big text field is where you put the new command name. Like "test".
+Below you have "Command", the first part is the Prefix which you made earlier in "Account" tab. Your not able to change the Prefix here, it gets loaded from the bot config. The other big text field is where you put the new command name. Like "test".
 
 Before doing anything else, lets look at the different sections.
 
