@@ -191,19 +191,29 @@ Sweet, now the currency is working for both bots. Theres one database that both 
 
 "Currency Icon", "Max currency limit" and "Insufficient currency response" are not working on current version of program. So ignore these 3.
 
-"MoneyTree" this is basicly for the admins of the currency system, if you place a name here they have basicly unlimited currency. This is used when you wanna give away free currency to chat or a person in chat. Holding events or simply a reaction to a discord message would also give those the set currency, however your name gotta be in to be able to use these commands.
+"MoneyTree" this is basicly for the admins of the currency system, if you place a name here they will have basicly unlimited currency. This is used when you wanna give away free currency to chat or a person in chat. Holding events or simply a reaction to a discord message would also give those currency, however your name gotta be in here to be able to use these commands.
 
 ### Settings
 ![Settings](http://wiad.tk/images/DisTwin/Settings.png)
 
 Last but least is the settigns, im not gonna cover this to much. 
 
-You will see status on each bit, if they are connected or not.
+You will see status on each bot, if they are connected or not.
 
 Path to the bots, if you used the program to install the bots it sud look somehow like the pic. 
 
 Unchecking "Not show console in new window" will make the program open a console window when you start a bot. Output will be redirected directly to the new window, and no log will be made.
 
+## Scopes
+Lastly i wanna cover scopes alittle deeper for the twitch perms.
+- Basic scopes ``["opendid", "viewing_activity_read", "channel:moderate", "channel_editor"]``
+- Read and manage whispers ``["whispers:edit", "whispers:read"]``
+- Read chat and manage commands ``[`"chat:edit", "chat:read"]``
+- Read reedemables and manage them ``["channel:read:redemptions", "channel:manage:redemptions"]``
+- Start ad/commerical ``["channel:edit:commercial", "channel_commercial"]``
+- Get subscribers ``["channel:read:subscriptions", "channel:manage:subscriptions"]``
+
+I think that covers the most important ones. All of these scopes are tested with bot and they are working really great, look at ("https://github.com/l0b5ter/DisTwin/tree/main/Wiki") for some exampels. Basic scopes is important to always use!
 
 
 
