@@ -185,11 +185,11 @@ Custom-reward-ID is the Redeem ID which can be found along with your channel poi
 ![Currency](http://wiad.tk/images/DisTwin/Currency.png)
 
 Finnaly we come to currency, lets first hit the enable button to turn it green.
-Sweet, now the currency is working for both bots. Theres one database which both bots are using, so the currency is always in sync.
+Sweet, now the currency is working for both bots. Theres one database that both bots are using, so the currency is always in sync.
 
 ![Cur](http://wiad.tk/images/DisTwin/Cur.png)
 
-"Currency Icon", "Max currency limit" and "Insufficient currency response" are all not working on current version of program. So ignore these 3.
+"Currency Icon", "Max currency limit" and "Insufficient currency response" are not working on current version of program. So ignore these 3.
 
 "MoneyTree" this is basicly for the admins of the currency system, if you place a name here they have basicly unlimited currency. This is used when you wanna give away free currency to chat or a person in chat. Holding events or simply a reaction to a discord message would also give those the set currency, however your name gotta be in to be able to use these commands.
 
