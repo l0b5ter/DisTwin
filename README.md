@@ -175,10 +175,6 @@ Missing a scope will display a error and no reedemables will appear!
 
 Affiliate? This allows chat to reedem a reward and either press a key, play a audio file, perform api call etc.
 
-As with the Command, you will also see how many reedemable the bot act on. 
-
-![Reed](http://wiad.tk/images/DisTwin/Reed.png)
-
 Custom-reward-ID is the Redeem ID which can be found along with your channel points rewards.
 
 ### Currency
